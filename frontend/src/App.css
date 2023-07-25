@@ -1,0 +1,7 @@
+body {
+  margin: 0px;
+}
+:where(.css-dev-only-do-not-override-1m62vyb).ant-menu-light.ant-menu-inline
+  .ant-menu-item {
+  height: 30px;
+}

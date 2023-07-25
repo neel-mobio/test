@@ -1,0 +1,87 @@
+.user-name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  padding-left: 10%;
+}
+.user-role {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  padding-left: 10%;
+}
+.notification-lable {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #4d5464;
+}
+.modal-lable {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #4d5464;
+}
+:where(
+    .css-dev-only-do-not-override-1m62vyb
+  ).ant-upload-wrapper.ant-upload-picture-circle-wrapper
+  .ant-upload.ant-upload-select {
+  width: 80px;
+  height: 80px;
+}
+/* .checkbox-color
+  .ant-checkbox-wrapper
+  .css-dev-only-do-not-override-1m62vyb
+  .ant-checkbox
+  .css-dev-only-do-not-override-1m62vyb
+  .ant-checkbox-checked
+  .ant-checkbox-checked
+  .ant-checkbox-inner::after {
+  background-color: black !important;
+} */
+/* :where(.css-dev-only-do-not-override-1m62vyb).ant-checkbox-checked
+  .ant-checkbox-inner::after {
+  background-color: "#7E56D8" !important;
+  border-color: "#7E56D8" !important;
+}
+:where(.css-dev-only-do-not-override-1m62vyb).ant-checkbox-wrapper:not(
+    .ant-checkbox-wrapper-disabled
+  ):hover
+  .ant-checkbox-checked:not(.ant-checkbox-disabled)
+  .ant-checkbox-inner::after {
+  background-color: "#7E56D8" !important;
+  border-color: "#7E56D8" !important;
+}
+:where(.css-dev-only-do-not-override-1m62vyb).ant-checkbox-checked
+  .ant-checkbox-inner::after {
+  background-color: "#7E56D8" !important;
+  border-color: "#7E56D8" !important;
+}
+:where(.css-dev-only-do-not-override-1m62vyb).ant-checkbox-checked
+  .ant-checkbox-inner::after {
+  background-color: "#7E56D8" !important;
+  border-color: "#7E56D8" !important;
+}
+:where(.css-dev-only-do-not-override-1m62vyb).ant-checkbox-wrapper:not(
+    .ant-checkbox-wrapper-disabled
+  ):hover
+  .ant-checkbox-checked:not(.ant-checkbox-disabled)
+  .ant-checkbox-inner
+  ::after {
+  background-color: red !important;
+}
+:where(.css-dev-only-do-not-override-1m62vyb).ant-checkbox-checked
+  .ant-checkbox-inner
+  ::after {
+  background-color: red !important;
+}
+.ant-checkbox-inner ::after {
+  background-color: red !important;
+} */

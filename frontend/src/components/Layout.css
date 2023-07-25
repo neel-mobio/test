@@ -1,0 +1,39 @@
+.breadcrumbtext {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #333843;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-layout,
+.ant-layout-has-sider,
+.ant-layout-sider {
+  height: 100vh;
+}
+.site-layout-background {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-top {
+  overflow: auto;
+}
+
+.sidebar-bottom {
+  margin-top: auto;
+}
+:where(.css-dev-only-do-not-override-1m62vyb).ant-layout .ant-layout-sider {
+  background-color: white;
+}
+:where(
+    .css-dev-only-do-not-override-1m62vyb
+  ).ant-menu-light.ant-menu-root.ant-menu-inline,
+:where(
+    .css-dev-only-do-not-override-1m62vyb
+  ).ant-menu-light.ant-menu-root.ant-menu-vertical {
+  border-inline-end: none;
+}

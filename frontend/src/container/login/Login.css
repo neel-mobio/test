@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  height: 96vh;
+  margin: 10px;
+}
+.image-container {
+  height: 97vh;
+  /* width: 50%; */
+}
+.background-img {
+  height: 97vh;
+  width: 100%;
+}
+.login-container {
+  height: 97vh;
+  /* width: 50%; */
+}
+.logo-title {
+  color: #7e56d8;
+  text-align: center;
+}
+.login-box {
+  margin: 20%;
+}
+.login-address-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
+.login-address {
+  width: 300px;
+}
+.email-forgot-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.forgot-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: end;
+  color: #7e56d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 0px 0px 10px 0px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-remove-login {
+  cursor: default;
+}
+.links {
+  color: #7e56d8;
+  text-decoration: none;
+}
+.addUserBtnLoadingAuth {
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  box-shadow: none;
+  border-radius: 5px;
+}
+.addUserBtnAuth {
+  background-color: #7e56d8;
+  border-color: #7e56d8;
+  /* height: 40px; */
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 5px;
+}
+.addUserBtnAuth:hover {
+  color: white !important;
+  background-color: #000000c4 !important;
+}
+.login-lable {
+  color: #4d5464;
+  font-weight: 500;
+}
+.error-label {
+  color: red;
+  padding-bottom: 5px;
+}
